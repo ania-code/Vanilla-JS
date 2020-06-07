@@ -1,0 +1,12 @@
+.visibleBox {
+    transition-property: visibility, opacity;
+    transition-duration: 0s, 1s;
+}
+
+.visibleBox.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, visibility;
+    transition-duration: 1s, 0s;
+    transition-delay: 0s, 1s;
+}
